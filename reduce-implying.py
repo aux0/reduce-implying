@@ -38,7 +38,7 @@ def reduce(text, word, occurrence):
 	for w in text:
 		if (w == word):
 			if (current == occurrence):
-				break;
+				break
 			current += 1
 		word_index += 1
 	
